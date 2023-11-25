@@ -1,0 +1,20 @@
+For the vctk model
+
+p237 (102)
+p298 (67)
+p284 (20)
+p259 (4)
+p286 (9)
+p292 (61) <== This one is really good
+p232 (60)
+
+
+For the  aru model
+
+01 (3) <== Really good when length_scale set to 0.6
+02 (9) <== This is good too but maybe try speeding up the length
+
+Note: Run the command like this:
+
+echo 'Hello. My name is George. Welcome to Sanson Labs.' | ./piper/piper --model en_GB-aru-medium.onnx --speaker 9  --output_file welcome.wav
+
